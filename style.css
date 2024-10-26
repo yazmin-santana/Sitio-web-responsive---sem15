@@ -1,0 +1,40 @@
+.carousel-text {
+    margin-top: 2%;
+    margin-bottom: 3%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .nav-item {
+    justify-items: left;
+  }
+
+  #accordionExample{
+    margin-top: 50%;
+  }
+
+  .col {
+    background-color: #F8F9FA;
+    text-align: justify;
+    justify-content: center;
+  }
+
+ /* Mostrar acordeón solo en contenedor principal en pantallas grandes */
+ #accordion-container {
+    display: block;
+  }
+
+  #accordion-in-navbar {
+    display: none;
+  }
+
+  @media (max-width: 992px) { /* Pantallas medianas y pequeñas */
+    #accordion-container {
+      display: none;
+    }
+
+    #accordion-in-navbar {
+      display: block;
+    }
+  }
